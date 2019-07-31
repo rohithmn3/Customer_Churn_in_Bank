@@ -12,3 +12,53 @@ We are given a dataset belonging to bank customers witha label of certain custom
 2. Understand the features captured and unearthing the reasons behind customers leaving the bank 
 3. Building a predictive model to predict the behavior of customers
 4. Develop focused customer retention programs.
+
+
+3. Data Description - broad categories
+The data captured by banks can be analyzed to understand on what basis they are loosing their customers.
+
+Customer who are likely to leave the bank -using column 'Churn'
+Customer account usage details - credit_score, deposits, withdrawal, purchases, credit cards taken / recommended / liked / disliked.
+App related data  - ios users, mobile_users, web users, registered phones
+Credit related information  - Applied for loan, waiting for loan, received ,cancelled, rejected
+Loyalty related data : Duration - Left the bank for months - 1 , 2+
+Rewards earned by the customer, reward_rate, is_referred
+Demographics about customer - age,city, state...
+
+
+
+Data Description in more detail:-
+---------------------------------
+churn - Customer is getting churned or not [ 0: No-churn , 1: churn ]
+age - Age of the customer who holds bank account
+housing - Type of house the customer resides registered with the bank [ R : Rented, O : Own]
+credit_score - Credit score maintained by the customer
+deposits - Amount deposited by the customer to his/her respective bank account
+withdrawal - Amount withdrawn by the customer from his/her bank account
+purchase_partners - The Partners associated with the bank such as IRCTC with SBI Card etc.
+purchases - Purchases being made by the customers through bank account
+cc_taken - Credit Cards preferred by the customers from the bank
+cc_recommended - Credit Card recommended to customers from bank
+cc_disliked - Credit Card disliked by the customers
+cc_liked - Credit Card liked by the customers
+cc_application_begin - Credit Card application intiated by the customers
+app_downloaded - Bank app downloaded by the customers
+web_user - Web users accessing the bank application
+app_web_user - Users accessing the web app of the bank
+ios_user - Users accessing bank application through ios devices
+android_user - Users accessing bank application through android devices
+registered_phones - Users who have registered phones with the bank
+payment_type - Type of credit card payment done by the customers [ Bi-weekly, weekly, Semi-Monthly, Monthly]
+waiting_4_loan - 0: No waiting_4_loan from bank, 1 : Waiting_4_loan from bank
+cancelled_loan - 0: No cancellation of loans , 1: Cancellation of loans from bank
+received_loan - 0: Didn't receive loans, 1: Received loans from bank
+rejected_loan - 0: Loan not rejected by bank , 1: Loan rejected by bank
+zodiac sign - 12 zodiac signs associated with the customers of the bank
+left_for_two_month_plus - Customers who left for more than 2 months from the bank
+left_for_one_month - Customers who left for more than one month from the bank
+rewards_earned - Rewards earned by the customer on using the bank credit card
+reward_rate - Reward rate given by bank to its customers
+is_referred - Is the customer being referred by the bank?
+
+4. Target Variable
+The goal is to predict whether or not a particular customer is likely to retain services. This is represented by the Churn column in the dataset. Churn = 'Yes' means the customer leaves the bank, whereas Churn = 'No' implies customer is retained by the bank.
