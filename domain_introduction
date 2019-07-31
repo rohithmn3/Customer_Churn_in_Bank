@@ -1,0 +1,14 @@
+1. Domain Introduction
+The customer churn, also known as customer attrition, refers to the phenomenon whereby a customer leaves a bank. Some studies confirmed that acquiring new customers can cost five times more than satisfying and retaining existing customers. As a matter of fact, there are a lot of benefits that encourage the tracking of the customer churn rate, for example:
+
+Marketing costs to acquire new customers are high. Therefore, it is important to retain customers so that the initial investment is not wasted;
+It has a direct impact on the ability to expand the company, etc.
+
+
+**2. Problem Statement**
+We are given a dataset belonging to bank customers witha label of certain customers who have already stopped using services of the bank. The goal of this analysis is to.
+
+1. Understand the customer base well with descriptive statistics on data
+2. Understand the features captured and unearthing the reasons behind customers leaving the bank 
+3. Building a predictive model to predict the behavior of customers
+4. Develop focused customer retention programs.
